@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.user.connectionapp">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".category">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Tec1" />
+        <activity android:name=".Tec2" />
+        <activity android:name=".Tec3" />
+        <activity android:name=".Tec4" />
+        <activity android:name=".Tec6" />
+        <activity android:name=".Tec7" />
+        <activity android:name=".Tec8" />
+        <activity android:name=".Tec9" />
+        <activity android:name=".Ent1" />
+        <activity android:name=".Ent2" />
+        <activity android:name=".Ent3" />
+        <activity android:name=".Ent4" />
+        <activity android:name=".Ent5" />
+        <activity android:name=".Ent6" />
+        <activity android:name=".Score" />
+        <activity android:name=".Sctec" />
+        <activity android:name=".Holy1" />
+        <activity android:name=".Holy2" />
+        <activity android:name=".Holy3" />
+        <activity android:name=".Holy4" />
+        <activity android:name=".Holy6" />
+        <activity android:name=".Holy7" />
+        <activity android:name=".Holy8" />
+        <activity android:name=".Holy9" />
+        <activity android:name=".Sholy" />
+        <activity android:name=".Ent9" />
+        <activity android:name=".Dent7" />
+        <activity android:name=".Boly1" />
+        <activity android:name=".Tamy1" />
+        <activity android:name=".Tamy2" />
+        <activity android:name=".Tamy3" />
+        <activity android:name=".Tamy4" />
+        <activity android:name=".Tamy5" />
+        <activity android:name=".Tamy6" />
+        <activity android:name=".Tamy7" />
+        <activity android:name=".Tamy8" />
+        <activity android:name=".Stamy" />
+        <activity android:name=".Boly2" />
+        <activity android:name=".Boly3" />
+        <activity android:name=".Boly4" />
+        <activity android:name=".Boly5" />
+        <activity android:name=".Boly6" />
+        <activity android:name=".Boly7" />
+        <activity android:name=".Boly8" />
+        <activity android:name=".Sboly"></activity>
+    </application>
+
+</manifest>
